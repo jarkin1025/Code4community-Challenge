@@ -52,7 +52,7 @@ After implementing the base functionality, I was interested in how I could work 
 I would have felt more confident implementing file persistence, but while looking through the suggestions for bonus features I wondered which type of HTTP request I'd use to update the info and decided to jump in and figure it out.
 
 
-### Challenges
+## Challenges
 - One of the challenges at the beginning was deciding what should be a component. Understanding the component-based architecture of React was crucial in managing the UI. I ended up only needing to add an AddPartner component to handle the form submission.
 -  Initially, I had an issue where I could delete an organization from the frontend, but it would reappear upon refreshing the page. This was because the data was only deleted from the frontend state, not from the backend. Solving this required updating the backend to handle deletion requests correctly and ensuring the frontend sent a DELETE request to the backend.
 -  I had initialized the 'partners' variable in the Dashboard component as an object instead of an array due to a small syntax error. This caused issues when treating it as an array later on, and it took me a while to notice. Fixing this by initializing partners as an array allowed me to continue, and clarified some things about adjusting state updates.
