@@ -21,12 +21,16 @@ The backend uses Express.js to handle API requests, while the frontend is built 
 
 ### Installation
 1. Clone the repository:
-   "git clone <repository-url>"
-   "cd <repository-directory>"
+   ```sh
+   git clone https://github.com/jarkin1025/Code4community-Challenge.git
+   cd c4c-challenge-fall-2024
+   ```
 
 2. Install dependencies:
-   "npm install"
-   "npm install @mui/material @emotion/react @emotion/styled"
+   ```sh
+   npm install
+   npm install @mui/material @emotion/react @emotion/styled
+   ```
 
 ### Running the Application
 1. Start the backend server:
