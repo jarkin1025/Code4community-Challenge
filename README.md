@@ -34,7 +34,9 @@ The backend uses Express.js to handle API requests, while the frontend is built 
 
 ### Running the Application
 1. Start the backend server:
-   "npm run dev"
+   ```sh
+   npm run dev
+   ```
 
 3. Open your browser and go to http://localhost:3000
 
